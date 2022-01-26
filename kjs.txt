@@ -22,9 +22,9 @@ function Timer(fn, t) {
         return this.stop().start();
     }
 }
-var timer = new Timer(function () {
-    plusSlides(1)
-}, 8000);
+// var timer = new Timer(function () {
+//     plusSlides(1)
+// }, 8000);
 function plusSlides(n) {
     slideIndex += n;
     showSlides();
