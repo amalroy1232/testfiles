@@ -28,8 +28,8 @@ var timer = new Timer(function () {
 function plusSlides(n) {
     slideIndex += n;
     showSlides();
-    timer.stop();
-    timer.start();
+    // timer.stop();
+    // timer.start();
 }
 // Thumbnail image controls
 function currentSlide(n) {
@@ -51,6 +51,6 @@ function showSlides() {
     }
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
-    timer.start()
+    // timer.start()
 }
 currentSlide(1)
