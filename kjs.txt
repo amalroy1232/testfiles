@@ -38,21 +38,21 @@ function currentSlide(n) {
 }
 
 function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    if (slideIndex > slides.length) { slideIndex = 1 }
-    if (slideIndex < 1) { slideIndex = slides.length }
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-        slides[i].style.visibility = "hidden";
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
-    slides[slideIndex - 1].style.visibility = "visible";
-    // timer.start()
-}
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			if (slideIndex > slides.length) { slideIndex = 1 }
+			if (slideIndex < 1) { slideIndex = slides.length }
+			for (i = 0; i < slides.length; i++) {
+				// slides[i].style.display = "none";
+				slides[i].className=slides[i].className.replace("add-display", "remove-display")
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			// slides[slideIndex - 1].style.display = "block";
+			slides[slideIndex - 1].className=slides[slideIndex - 1].className.replace("remove-display","add-display")
+			dots[slideIndex - 1].className += " active";
+			// timer.start()
+		}
 currentSlide(1)

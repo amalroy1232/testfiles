@@ -7,7 +7,7 @@
 		<div class="slideshow-container">
 
 			<!-- Full-width images with number and caption text -->
-			<div class="mySlides fade">
+			<div class="mySlides fade remove-display">
 				<div class="numbertext"></div>
 				<a onclick="plusSlides(-1)"><img class='left-card'
 						src="https://objectstorage.ap-hyderabad-1.oraclecloud.com/n/axntqolqb5w4/b/landing_page_resources_staging/o/desktop%2Fimages%2FInvest_Desktop_Small.png" /></a>
@@ -17,7 +17,7 @@
 						src="https://objectstorage.ap-hyderabad-1.oraclecloud.com/n/axntqolqb5w4/b/landing_page_resources_staging/o/desktop%2Fimages%2FDiscover_Desktop_Small.png"></a>
 			</div>
 
-			<div class="mySlides fade">
+			<div class="mySlides fade remove-display">
 				<div class="numbertext"></div>
 				<a onclick="plusSlides(-1)"><img class='left-card'
 						src="https://objectstorage.ap-hyderabad-1.oraclecloud.com/n/axntqolqb5w4/b/landing_page_resources_staging/o/desktop%2Fimages%2FLearn_Desktop_Small.png" /></a>
@@ -27,7 +27,7 @@
 						src="https://objectstorage.ap-hyderabad-1.oraclecloud.com/n/axntqolqb5w4/b/landing_page_resources_staging/o/desktop%2Fimages%2FInvest_Desktop_Small.png" /></a>
 			</div>
 
-			<div class="mySlides fade">
+			<div class="mySlides fade remove-display">
 				<div class="numbertext"></div>
 				<a onclick="plusSlides(-1)"><img class='left-card'
 						src="https://objectstorage.ap-hyderabad-1.oraclecloud.com/n/axntqolqb5w4/b/landing_page_resources_staging/o/desktop%2Fimages%2FDiscover_Desktop_Small.png" /></a>
