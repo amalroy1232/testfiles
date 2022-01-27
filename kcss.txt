@@ -48,10 +48,6 @@
     top: 50px;
 }
 
-.mySlides {
-
-    display: none;
-}
 
 .prev,
 .next {
