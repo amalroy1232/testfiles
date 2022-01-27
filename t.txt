@@ -1,0 +1,53 @@
+<html>
+<head>
+</head>
+<body >
+	<div class='slideshow-container-wrapper'>
+		<img src='https://objectstorage.ap-hyderabad-1.oraclecloud.com/n/axntqolqb5w4/b/landing_page_resources_staging/o/desktop%2Fimages%2FBackground_Desktop.png'
+			style="width:100%">
+		<div class="slideshow-container">
+
+			<!-- Full-width images with number and caption text -->
+			<div class="mySlides k-fades">
+				<div class="numbertext"></div>
+				<a onclick="plusSlides(-1)"><img class='left-card'
+						src="https://objectstorage.ap-hyderabad-1.oraclecloud.com/n/axntqolqb5w4/b/landing_page_resources_staging/o/desktop%2Fimages%2FInvest_Desktop_Small.png" /></a>
+				<img class='main-card'
+					src="https://objectstorage.ap-hyderabad-1.oraclecloud.com/n/axntqolqb5w4/b/landing_page_resources_staging/o/desktop%2Fimages%2FLearn_Desktop.png" />
+				<a onclick="plusSlides(1) "><img class='right-card'
+						src="https://objectstorage.ap-hyderabad-1.oraclecloud.com/n/axntqolqb5w4/b/landing_page_resources_staging/o/desktop%2Fimages%2FDiscover_Desktop_Small.png"></a>
+			</div>
+
+			<div class="mySlides k-fades">
+				<div class="numbertext"></div>
+				<a onclick="plusSlides(-1)"><img class='left-card'
+						src="https://objectstorage.ap-hyderabad-1.oraclecloud.com/n/axntqolqb5w4/b/landing_page_resources_staging/o/desktop%2Fimages%2FLearn_Desktop_Small.png" /></a>
+				<img class='main-card'
+					src="https://objectstorage.ap-hyderabad-1.oraclecloud.com/n/axntqolqb5w4/b/landing_page_resources_staging/o/desktop%2Fimages%2FDiscover_Desktop.png" />
+				<a onclick="plusSlides(1)"><img class='right-card'
+						src="https://objectstorage.ap-hyderabad-1.oraclecloud.com/n/axntqolqb5w4/b/landing_page_resources_staging/o/desktop%2Fimages%2FInvest_Desktop_Small.png" /></a>
+			</div>
+
+			<div class="mySlides k-fades">
+				<div class="numbertext"></div>
+				<a onclick="plusSlides(-1)"><img class='left-card'
+						src="https://objectstorage.ap-hyderabad-1.oraclecloud.com/n/axntqolqb5w4/b/landing_page_resources_staging/o/desktop%2Fimages%2FDiscover_Desktop_Small.png" /></a>
+				<img class='main-card'
+					src="https://objectstorage.ap-hyderabad-1.oraclecloud.com/n/axntqolqb5w4/b/landing_page_resources_staging/o/desktop%2Fimages%2FInvest_Desktop.png" />
+				<a onclick="plusSlides(1)"><img class='right-card'
+						src="https://objectstorage.ap-hyderabad-1.oraclecloud.com/n/axntqolqb5w4/b/landing_page_resources_staging/o/desktop%2Fimages%2FLearn_Desktop_Small.png" /></a>
+			</div>
+		</div>
+		<a class="prev" onclick="plusSlides(-1)"><span class="prev-arrow">&#10094;</span></a>
+		<a class="next" onclick="plusSlides(1)"><span class="next-arrow">&#10095;</span></a>
+		<br>
+
+	</div>
+	<div class='threedots'>
+		<span class="dot" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+	</div>
+</body>
+
+</html>
