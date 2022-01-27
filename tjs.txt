@@ -52,10 +52,11 @@ function showSlides() {
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    console.log('Slides:',slides)
     console.log('SlideIndex:',slideIndex)
-    console.log('style:',slides[slideIndex-1].style)
     slides[slideIndex - 1].style.display = "block";
+    console.log('Slides:',slides[slideIndex-1])
     dots[slideIndex - 1].className += " active";
+    console.log('Dots:',dots)
+    console.log('Dots slideIndex-1:',dots[slideIndex-1]);
 }
 window.onload=function(){currentSlide(1)};
