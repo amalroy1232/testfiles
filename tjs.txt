@@ -59,4 +59,15 @@ function showSlides() {
     console.log('Dots:',dots)
     console.log('Dots slideIndex-1:',dots[slideIndex-1]);
 }
-window.onload=function(){currentSlide(1)};
+window.onload=function(){
+    fetch(`http://localhost:9001/test`, {
+        method: "GET"
+    })
+        .then(response => response.json())
+        .then(result => {
+        console.log('result:',result)
+        })
+        .catch(error => {
+            console.error("error", error);
+        }) 
+    currentSlide(1)};
