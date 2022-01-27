@@ -129,10 +129,10 @@ a {
     background-color: #717171;
 }
 
-.fade {
-    -webkit-animation-name: fade;
+.kfades {
+    -webkit-animation-name: kfades;
     -webkit-animation-duration: 1s;
-    animation-name: fade;
+    animation-name: kfades;
     animation-duration: 1s;
 }
 .add-display{
@@ -141,7 +141,7 @@ a {
 .remove-display{
     display:none;
 }
-@-webkit-keyframes fade {
+@-webkit-keyframes kfades {
     from {
         opacity: .4;
     }
@@ -151,7 +151,7 @@ a {
     }
 }
 
-@keyframes fade {
+@keyframes kfades {
     from {
         opacity: .4
     }
