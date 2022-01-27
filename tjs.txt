@@ -25,6 +25,7 @@ function Timer(fn, t) {
 // var timer = new Timer(function () {
 // 	plusSlides(1)
 // }, 8000);
+var slideIndex=1;
 function plusSlides(n) {
     slideIndex += n;
     showSlides();
