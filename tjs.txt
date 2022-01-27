@@ -54,5 +54,6 @@ function showSlides() {
     dots[slideIndex - 1].className += " active";
 }
 window.onload=function() {
+    console.log('Onloading');
     currentSlide(1)
 }
