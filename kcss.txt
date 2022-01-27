@@ -135,9 +135,9 @@ a {
 
 .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1s;
+    -webkit-animation-duration: 60s;
     animation-name: fade;
-    animation-duration: 1s;
+    animation-duration: 60s;
 }
 .add-display{
     display:block;
