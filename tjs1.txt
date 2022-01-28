@@ -72,3 +72,4 @@ window.onload=function(){
             console.error("error", error);
         }) 
     currentSlide(1)};
+window.urls=['hello']
