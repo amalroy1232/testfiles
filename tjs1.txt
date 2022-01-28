@@ -71,5 +71,10 @@ window.onload=function(){
         .catch(error => {
             console.error("error", error);
         }) 
-    currentSlide(1)};
+    currentSlide(1)
+    console.log('Moment onload:',moment.toString())
+    };
+window.example=function(){
+	    console.log('Moment:',moment.toString())
+};
 window.urls=['hello']
